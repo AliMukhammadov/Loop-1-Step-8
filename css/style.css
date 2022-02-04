@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;900&display=swap');
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8EBE9;
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1270px;
+    width: 100%;
+    border-radius: 2px;
+    box-shadow: 0 20px 30px rgba(213, 161, 146, 0.9);
+}
+
+.sitenav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.sitenav-list {
+    list-style-type: none;
+    display: flex;
+}
+
+.sitenav-link {
+    position: relative;
+    top: 10px;
+    margin-left: 50px;
+    color: #444;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.sitenav-link::before {
+    content: url("../img/arrow-back.svg");
+    position: absolute;
+    top: -0.405em;
+    left: -2em;
+    opacity: .7;
+    transform: scale(.65);
+    transition: opacity 1s;
+}
+
+.sitenav-item-link {
+    margin: 2.4em 1.1em;
+    transition: .1s;
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase   ;
+}
+
+.spain {
+    color: #222;
+}
+
+.france {
+    padding-right: 0;
+}
+
+.left-bg {
+    margin-top: -50px;
+}
+
+.left-bg-img {
+    width: 440px;
+    height: 790px;
+    border-radius: 5px 0px 0px 0px;
+}
+
+.main-content {
+    display: flex;
+}
+
+.right-bg {
+    margin: 0;
+    padding: 0;
+    margin-left: 130px;
+    margin-top: 150px;
+}
+.right-bg-heading {
+    font-size: 60px;
+}
+
+.right-bg-author {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.right-bg-bottom-part {
+    display: flex;
+}
+
+.left-bottom-part-text {
+    font-size: 20px;
+    margin-top: 0;
+    padding-top: 0;
+    margin-top: 10px;
+}
+
+.bottom-part-right {
+    margin-left: 30px;
+}
+
+.bottom-part-right-title {
+    margin-top: 0;
+    padding-top: 0;
+    width: 250px;
+    font-size: 23px;
+    letter-spacing: 0.5px;
+    line-height: normal;
+}
